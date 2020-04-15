@@ -1,12 +1,6 @@
 <template>
   <div>
     <h1>Create and Event, {{ user.name }}</h1>
-    <p>This event was created by {{ user.name }}</p>
-    <p>There are {{ catLength }} categories</p>
-    <p>{{ getEventById(1) }}</p>
-    <ul>
-      <li v-for="category in categories" :key="category.id">{{ category }}</li>
-    </ul>
   </div>
 </template>
 
